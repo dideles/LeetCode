@@ -1,4 +1,4 @@
-package com.java.Сomplication_2_Medium.Task_3242_Shortest_Distance_After_Road_Addition_Quaries_I;
+package com.java.Complication_2_Medium.Task_3242_Shortest_Distance_After_Road_Addition_Quaries_I;
 
 import java.util.ArrayList;
 import java.util.Arrays;
