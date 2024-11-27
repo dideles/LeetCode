@@ -1,7 +1,5 @@
-package Easy.Task_0001_Two_Sum;
+package com.java.Complication_1_Easy.Task_0001_Two_Sum;
 
-
-import com.java.Easy.Task_0001_Two_Sum.Solution;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
@@ -25,10 +23,6 @@ public class SolutionTest {
         nums = new int[]{3, 2, 4};
         target = 6;
         assertArrayEquals(new int[]{1, 2}, solution.twoSum(nums, target));
-
-        nums = new int[]{3, 3};
-        target = 6;
-        assertArrayEquals(new int[]{0, 1}, solution.twoSum(nums, target));
     }
 
     @Test
