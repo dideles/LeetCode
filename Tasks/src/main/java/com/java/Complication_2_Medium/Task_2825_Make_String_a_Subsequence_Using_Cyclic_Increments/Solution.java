@@ -1,11 +1,6 @@
 package com.java.Complication_2_Medium.Task_2825_Make_String_a_Subsequence_Using_Cyclic_Increments;
 
-/**
- * Класс для проверки возможности создания подстроки из другой строки,
- * где каждая буква исходной строки может соответствовать текущей или следующей букве целевой подстроки.
- */
 public class Solution {
-
 
     /**
      * Проверяет возможность создания подстроки из заданной строки.
@@ -20,6 +15,7 @@ public class Solution {
         if (toCheckForTargetSubsequence.isEmpty() || targetSubsequence.isEmpty()) {
             return false;
         }
+
         // Проверка длины строк:
         if (targetSubsequence.length() > toCheckForTargetSubsequence.length()) {
             return false; // т.к. невозможно сформировать нужную подстроку.
